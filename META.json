@@ -1,0 +1,69 @@
+{
+   "abstract" : "jQluster server implementation using WebSocket transport",
+   "author" : [
+      "Toshio Ito <toshioito@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.42",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "jQluster-Server-WebSocket",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "eg",
+         "inc"
+      ],
+      "file" : [
+         "README.pod"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build::Pluggable::CPANfile" : "0.02",
+            "Test::Exception" : "0",
+            "Test::More" : "0",
+            "Test::Requires" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.42",
+            "Module::Build::Pluggable" : "0.09",
+            "Module::Build::Pluggable::CPANfile" : "0.02"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "Data::UUID" : "0",
+            "Getopt::Long" : "0",
+            "JSON" : "0",
+            "Plack::App::WebSocket" : "0",
+            "Plack::Component" : "0",
+            "Plack::Runner" : "0",
+            "Pod::Usage" : "0",
+            "Scalar::Util" : "0",
+            "Try::Tiny" : "0",
+            "Twiggy" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/debug-ito/jQluster-Server-WebSocket/issues"
+      },
+      "repository" : {
+         "url" : "git://github.com/debug-ito/jQluster-Server-WebSocket.git"
+      }
+   },
+   "version" : "0.01"
+}
