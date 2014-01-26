@@ -9,8 +9,5 @@ README
 t/00-load.t
 t/jqluster_server.t
 t/websocket.t
-xt/consistent_version.t
-xt/manifest.t
-xt/pod.t
 META.yml
 META.json

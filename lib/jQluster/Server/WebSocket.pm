@@ -8,7 +8,7 @@ use Scalar::Util qw(weaken refaddr);
 use Try::Tiny;
 use JSON qw(decode_json encode_json);
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub new {
     my ($class, @args) = @_;
@@ -117,11 +117,11 @@ Then, in your JavaScript code
 
 =head1 DESCRIPTION
 
-B<This is an experimental module for the experimental jQluster project. jQluster project is still in progress. I will update the document when it's ready.>
+L<jQluster::Server::WebSocket> is part of jQluster project. To learn more about jQluster, visit L<https://github.com/debug-ito/jQluster>.
 
-L<jQluster::Server::WebSocket> is a jQluster server implementation
-using simple WebSocket transport. It accepts WebSocket connections and
-distribute jQluster messages through the connections.
+This module is a jQluster server implementation using simple WebSocket
+transport. It accepts WebSocket connections and distribute jQluster
+messages through the connections.
 
 L<jQluster::Server::WebSocket> creates a L<PSGI> application. You can
 use it as a stand-alone app or mount it together with your own app.
