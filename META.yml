@@ -3,20 +3,18 @@ abstract: 'jQluster server implementation using WebSocket transport'
 author:
   - 'Toshio Ito <toshioito@cpan.org>'
 build_requires:
-  Module::Build::Pluggable::CPANfile: 0.02
-  Test::Exception: 0
-  Test::More: 0
-  Test::Requires: 0
+  Test::Exception: '0'
+  Test::More: '0'
+  Test::Requires: '0'
 configure_requires:
-  Module::Build: 0.42
-  Module::Build::Pluggable: 0.09
-  Module::Build::Pluggable::CPANfile: 0.02
+  Module::Build: '0.42'
+  Module::Build::Prereqs::FromCPANfile: '0.02'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.42, CPAN::Meta::Converter version 2.132140'
+generated_by: 'Module::Build version 0.4205, CPAN::Meta::Converter version 2.141170'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: jQluster-Server-WebSocket
 no_index:
   directory:
@@ -27,18 +25,18 @@ no_index:
   file:
     - README.pod
 requires:
-  Carp: 0
-  Data::UUID: 0
-  Getopt::Long: 0
-  JSON: 0
-  Plack::App::WebSocket: 0
-  Plack::Component: 0
-  Plack::Runner: 0
-  Pod::Usage: 0
-  Scalar::Util: 0
-  Try::Tiny: 0
-  Twiggy: 0
+  Carp: '0'
+  Data::UUID: '0'
+  Getopt::Long: '0'
+  JSON: '0'
+  Plack::App::WebSocket: '0'
+  Plack::Component: '0'
+  Plack::Runner: '0'
+  Pod::Usage: '0'
+  Scalar::Util: '0'
+  Try::Tiny: '0'
+  Twiggy: '0'
 resources:
   bugtracker: https://github.com/debug-ito/jQluster-Server-WebSocket/issues
   repository: git://github.com/debug-ito/jQluster-Server-WebSocket.git
-version: 0.02
+version: '0.03'
